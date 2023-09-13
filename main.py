@@ -12,9 +12,9 @@ from defs import getUrl, getcards
 
 # Lista de URLs de imágenes
 image_urls = [
-    "https://w0.peakpx.com/wallpaper/950/807/HD-wallpaper-rainy-day-manga-fantasy-rain-anime.jpg",
-    "https://images.hdqwalls.com/wallpapers/anime-girl-in-rain-36.jpg",
-    "https://e1.pxfuel.com/desktop-wallpaper/323/679/desktop-wallpaper-rainy-city-anime-anime-night-city-rain.jpg",
+    "https://w0.peakpx.com/wallpaper/657/385/HD-wallpaper-anime-aesthetic-twitter-80s-aesthetic-anime.jpg",
+    "https://i.pinimg.com/736x/90/3b/3e/903b3ee0925f20ca7cfbba52f4fbbc25.jpg",
+    "https://c.wallhere.com/photos/ac/bd/star_trails_gamers_spaceship-16088.jpg!d",
     # Agrega más URLs de imágenes aquí
 ]
 
@@ -69,13 +69,14 @@ class Scraper:
         extra = cc[0:0 + 12]
         crd = f"{cc}|{mes}|{ano}|{cvv}"
         text = f""" 
-╰────────✧─────────╮
-Card ➣  {cc}|{mes}|{ano}|{cvv} ⚖️
-╰────────✧─────────╮
+>_New Cc Arrived! ✅
+- - - - - - - - - - - - - - - - - - - -
+Card ➣  {cc}|{mes}|{ano}|{cvv} 
+- - - - - - - - - - - - - - - - - - - -
 Bin Info ➣ {brand} - {types} - {level}
 Bank ➣  {country} - ({flag})  {bank}
-╰────────✧─────────╮
-Team: @TeamSirux - データベース [Backup]
+- - - - - - - - - - - - - - - - - - - -
+𝘿𝙧𝙤𝙥𝙥𝙨 𝙎𝙞𝙧𝙪𝙭デ [FreeDB] @TeamSirux
 """
 
         print(f'Card => {cc}|{mes}|{ano}|{cvv}  {country} - ({flag}    ')
