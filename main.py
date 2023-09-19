@@ -14,7 +14,6 @@ from defs import getUrl, getcards
 image_urls = [
     "https://w0.peakpx.com/wallpaper/657/385/HD-wallpaper-anime-aesthetic-twitter-80s-aesthetic-anime.jpg",
     "https://i.pinimg.com/736x/90/3b/3e/903b3ee0925f20ca7cfbba52f4fbbc25.jpg",
-    "https://c.wallhere.com/photos/ac/bd/star_trails_gamers_spaceship-16088.jpg!d",
     # Agrega más URLs de imágenes aquí
 ]
 
