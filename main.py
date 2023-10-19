@@ -12,8 +12,8 @@ from defs import getUrl, getcards
 
 # Lista de URLs de imágenes
 image_urls = [
-    "https://w0.peakpx.com/wallpaper/657/385/HD-wallpaper-anime-aesthetic-twitter-80s-aesthetic-anime.jpg",
-    "https://i.pinimg.com/736x/90/3b/3e/903b3ee0925f20ca7cfbba52f4fbbc25.jpg",
+    "https://i.pinimg.com/564x/97/16/03/97160304a607a241fce99c4d5b4e69ea.jpg",
+    "https://i.pinimg.com/564x/8e/5b/2c/8e5b2c6d4c78a36fe500f68a25774389.jpg",
     # Agrega más URLs de imágenes aquí
 ]
 
@@ -68,14 +68,11 @@ class Scraper:
         extra = cc[0:0 + 12]
         crd = f"{cc}|{mes}|{ano}|{cvv}"
         text = f""" 
->_New Cc Arrived! 🏝
-- - - - - - - - - - - - - - - - - - - -
-Card ➣ <code> {cc}|{mes}|{ano}|{cvv} </code>
-- - - - - - - - - - - - - - - - - - - -
-Bin Info ➣ {brand} - {types} - {level}
-Bank ➣  {country} - ({flag})  {bank}
-- - - - - - - - - - - - - - - - - - - -
-𝘿𝙧𝙤𝙥𝙥𝙨 𝙎𝙞𝙧𝙪𝙭デ @TeamSirux  [FreeDB] 
+>_New Cc Arrived!🕸 [Vip DB] 
+
+Card: <code> {cc}|{mes}|{ano}|{cvv} </code>
+Bin Info: {brand} - {types} - {level}
+Bank:  {country} - ({flag})  {bank}  
 """
 
         print(f'Card => {cc}|{mes}|{ano}|{cvv}  {country} - ({flag}    ')
@@ -100,9 +97,9 @@ Bank ➣  {country} - ({flag})  {bank}
 if __name__ == "__main__":
     id = 27681377
     hash = '43f342537ee796353a06c6b7b6931c57'
-    chat = '@dbfreescrappers'
+    chat = '-1001828341202'
     chats = [
-        '@scrapperlala', '@ritagroupOfc', '@OficialScorpionsGrupo','@JohnnySinsChat','@freeusersdev','@alterchkchat','@BINEROS_CCS2'
+        '@scrapperlala', '@ritagroupOfc', '@OficialScorpionsGrupo','@JohnnySinsChat','@BinsHellChat','@alterchkchat','@savagegroupoficial'
     ]
     scraper = Scraper(id, hash, chat, chats)
     scraper.run() 
